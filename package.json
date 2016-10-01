@@ -1,0 +1,23 @@
+{
+  "name": "stock-nodejs-form",
+  "version": "1.0.0",
+  "description": "A simple JQuery, NodeJs, ExpressJS upload form.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Joshua Mackey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "mongoose": "^4.6.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
